@@ -52,14 +52,6 @@ const Home = () => {
         setFact(facts[keys[rand]])
     }
 
-    // lol
-    useEffect(() => {
-      const d = new Date()
-      if (d.getDay() == 4 && (d.getHours() >= 9 && d.getHours() < 13)) {
-        window.location.href='http://www.gamalielplazaras.gay'
-      }
-    })
-
     return (
         <Box>
             <NavBar />
