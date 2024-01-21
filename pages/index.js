@@ -115,7 +115,7 @@ const Home = () => {
                                 borderRadius="full"
                                 boxSize="110px"
                                 display="inline-block"
-                                src="/profile.png"
+                                src="/profile.jpg"
                                 alt="Hans Sorongon"
                                 mt={5}
                             />
