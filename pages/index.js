@@ -8,7 +8,11 @@ import {
     Box,
     Container,
     Image,
-    Text, Progress,
+    Text, 
+    Progress,
+    List,
+    ListItem,
+    ListIcon
 } from '@chakra-ui/react'
 import { motion } from 'framer-motion'
 import {  EmailIcon } from '@chakra-ui/icons'
@@ -18,6 +22,7 @@ import {
     IoLogoFacebook,
     IoLogoInstagram,
 } from 'react-icons/io5'
+import { FaTrophy } from "react-icons/fa";
 import { HiDocumentDownload } from 'react-icons/hi'
 
 import links from '../lib/links.json'
@@ -142,7 +147,7 @@ const Home = () => {
                                         'white'
                                     )}
                                     onClick={() =>
-                                        alert('Check again next time!')
+                                        alert('Currently working on it! Check again next time!')
                                     }
                                 >
                                     Download Resume&nbsp;
@@ -177,6 +182,29 @@ const Home = () => {
                             initial={{ y: 40, opacity: 0 }}
                             animate={{ y: -25, opacity: 1 }}
                             transition={{ duration: 0.6, delay: 0.7 }}
+                        >
+                            <SectionHeader fontSize={24} color="#363636">
+                                ACHIEVEMENTS
+                            </SectionHeader>
+                            <Container mt={3} mb={6}>
+                                <Progress size="xs" isIndeterminate mb={6} />
+                                <List spacing={3} fontSize={18}>
+                                  <ListItem display="flex" alignItems="center">
+                                    <ListIcon as={FaTrophy} color='#ffcf40' mr={4}/>
+                                      <p>Impact Hackathon 2021 - Health | <b>Grand Winner</b></p>
+                                  </ListItem>
+                                  <ListItem display="flex" alignItems="center">
+                                    <ListIcon as={FaTrophy} color='#cd7f32' mr={4}/>
+                                      <p>Impact Hackathon 2021 - Smart Cities | <b>Second Runner Up</b></p>
+                                  </ListItem>
+                                </List>
+                            </Container>
+                        </motion.div>
+
+                        <motion.div
+                            initial={{ y: 40, opacity: 0 }}
+                            animate={{ y: -25, opacity: 1 }}
+                            transition={{ duration: 0.6, delay: 0.8 }}
                         >
                             <SectionHeader fontSize={24} color="#363636">
                                 SOCIALS
