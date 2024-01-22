@@ -1,5 +1,5 @@
 {
-    "fact1": "Hans' likes Violet Evergarden!",
+    "fact1": "Hans' likes the anime Violet Evergarden!",
     "fact2": "Hans has a pet dog named Chorizo!",
     "fact3": "Hans has a pet bird named Champ!",
     "fact4": "Hans dislikes a lot of seafood.",
@@ -10,12 +10,9 @@
     "fact9": "Hans uses both Windows and Linux!",
     "fact10": "Hans loves iced tea!",
     "fact11": "Hans' favorite podcast is Trash Taste!",
-    "fact12": "Hans mains Pharah in Overwatch!",
-    "fact13": "Hans' first programming language was Python.",
-    "fact14": "Hans favorite anime is Fullmetal Alchemist Brotherhood!",
-    "fact15": "Hans' favorite Minecraft mod is the Create Mod!",
-    "fact16": "Hans hates League of Legends.",
-    "fact17": "Hans likes Python and JavaScript.",
-    "fact19": "Hans uses a Logitech MX Master 2S.",
-    "fact20": "Hans enjoys playing Tekken 7!"
+    "fact12": "Hans' first programming language was Python.",
+    "fact13": "Hans favorite anime is Fullmetal Alchemist Brotherhood!",
+    "fact14": "Hans' favorite Minecraft mod is the Create Mod!",
+    "fact15": "Hans hates League of Legends.",
+    "fact16": "Hans likes Python, JavaScript, and C++."
 }
