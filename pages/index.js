@@ -115,8 +115,8 @@ const Home = () => {
                                 borderRadius="full"
                                 boxSize="110px"
                                 display="inline-block"
-                                src="https://scontent.fmnl4-1.fna.fbcdn.net/v/t39.30808-6/416128422_24513119308334044_8282378765061106281_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeHh7nEHLnzcFh6TwfonEAH1xZB5qK2sU7bFkHmoraxTthZSyWZi9IMRHNowbpTN9Ls97gt2OjBB_-aI2s_oT3Ay&_nc_ohc=YL_eQpSEVH8AX9WS8ne&_nc_ht=scontent.fmnl4-1.fna&oh=00_AfBhOcW7ULNGRRVpLRr57vPYCQZpdly_ly0WR_bAEkU8pA&oe=65B30FFB"
-                                alt="Hans Sorongon"
+                                src="profilePicture.png"
+                                alt=" Hans Sorongon"
                                 mt={5}
                             />
                         </Flex>
