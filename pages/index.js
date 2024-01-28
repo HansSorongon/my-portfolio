@@ -115,8 +115,8 @@ const Home = () => {
                                 borderRadius="full"
                                 boxSize="110px"
                                 display="inline-block"
-                                src="profilePicture.png"
-                                alt=" Hans Sorongon"
+                                src="/profilePicture.png"
+                                alt="hans-sorongon"
                                 mt={5}
                             />
                         </Flex>
