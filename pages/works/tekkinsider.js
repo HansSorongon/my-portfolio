@@ -61,7 +61,7 @@ const CamMD = () => {
                         >
                             <Box mb="6vh">
                                 <Paragraph header="ABOUT">
-                                  A full-stack web application for fans of the video game franchise "Tekken". This project
+                                  A full-stack web application for fans of the video game franchise &quot;Tekken&quot;. This project
                                   was made in compliance with the requirements of the course CCAPDEV. This was done in a group
                                   of four. Despite having previous experience with full-stack development, I learned quite a lot
                                   in the development of this web app. One requirement in the creation of this project was the use

@@ -42,7 +42,7 @@ const WorksPage = () => {
                                     fontSize="2xl"
                                     color="#363636"
                                 >
-                                    2022 PERSONAL PROJECTS
+                                    PROJECTS 
                                     <Progress
                                         size="xs"
                                         isIndeterminate
@@ -86,6 +86,41 @@ const WorksPage = () => {
                                 transition={{ duration: 1, delay: '0.3' }}
                             >
                                 <WorkElement
+                                    header="Tekken Insider"
+                                    techUsed="JavaScript,
+                                NextJS, Framer Motion, Express, MongoDB, MongoDB Atlas, Cloudinary"
+                                    link="https://github.com/HansSorongon/my-portfolio"
+                                    link="/works/tekkinsider"
+                                    read
+                                >
+                                    A full-stack web forum made for fans of the game franchise &quot;Tekken&quot;. Utilizes
+                                    a fully cloud-based solution for storage. Made with a group of four as a requirement
+                                    for my applications development class.
+                                </WorkElement>
+                            </motion.div>
+                            <motion.div
+                                initial={{ x: -100, opacity: 0 }}
+                                animate={{ x: 0, opacity: 1 }}
+                                transition={{ duration: 1, delay: '0.4' }}
+                            >
+                                <WorkElement
+                                    header="Sokobot"
+                                    techUsed="Java"
+                                    link="https://github.com/HansSorongon/CSINTSY-Sokobot"
+                                    github
+                                >
+                                    A sokoban solver bot created using the Best First Search algorithm. Tested to be able to solve
+                                    most sokoban puzzles of less than seven boxes in under one second given a map size restriction.
+
+                                </WorkElement>
+                            </motion.div>
+
+                            <motion.div
+                                initial={{ x: -100, opacity: 0 }}
+                                animate={{ x: 0, opacity: 1 }}
+                                transition={{ duration: 1, delay: '0.5' }}
+                            >
+                                <WorkElement
                                     header="Sorting Algorithm Visualizer"
                                     techUsed="Python, Pygame"
                                     link="https://github.com/HansSorongon/sorting-algorithms-visualizer"
@@ -94,45 +129,60 @@ const WorksPage = () => {
                                     A simple sorting algorithm visualizer made
                                     with Pygame and Python.
                                 </WorkElement>
-                                <motion.div
-                                    initial={{ x: -100, opacity: 0 }}
-                                    animate={{ x: 0, opacity: 1 }}
-                                    transition={{ duration: 1, delay: '0.4' }}
-                                >
-                                    <WorkElement
-                                        header="Conway Web"
-                                        techUsed="Chakra UI, NextJS"
-                                        link="https://conway-web-two.vercel.app"
-                                        visit
-                                    >
-                                        A simple informative website about
-                                        Conway&apos;s game of life with an
-                                        interactive background. Clicking on the
-                                        background will spawn r-pentominos.
-                                    </WorkElement>
-                                </motion.div>
-                                <motion.div
-                                    initial={{ x: -100, opacity: 0 }}
-                                    animate={{ x: 0, opacity: 1 }}
-                                    transition={{ duration: 1, delay: '0.4' }}
-                                >
-                                    <WorkElement
-                                        header="Markdown Blog"
-                                        techUsed="MongoDB, Mongoose, Express, Bootstrap, HTML"
-                                        link="https://github.com/HansSorongon/markdown-blog-1"
-                                        github
-                                    >
-                                        A simple markdown blog utilizing CRUD
-                                        Operation fundamentals with MongoDB. I
-                                        plan to remake this in the future with
-                                        different frameworks/libraries.
-                                    </WorkElement>
-                                </motion.div>
                             </motion.div>
                             <motion.div
                                 initial={{ x: -100, opacity: 0 }}
                                 animate={{ x: 0, opacity: 1 }}
-                                transition={{ duration: 1, delay: '0.5' }}
+                                transition={{ duration: 1, delay: '0.6' }}
+                            >
+                                <WorkElement
+                                    header="Conway Web"
+                                    techUsed="Chakra UI, NextJS"
+                                    link="https://conway-web-two.vercel.app"
+                                    visit
+                                >
+                                    A simple informative website about
+                                    Conway&apos;s game of life with an
+                                    interactive background. Clicking on the
+                                    background will spawn r-pentominos.
+                                </WorkElement>
+                            </motion.div>
+                            <motion.div
+                                initial={{ x: -100, opacity: 0 }}
+                                animate={{ x: 0, opacity: 1 }}
+                                transition={{ duration: 1, delay: '0.7' }}
+                            >
+                                <WorkElement
+                                    header="FamBot"
+                                    techUsed="Python, Prolog"
+                                    link="https://github.com/HansSorongon/CSINTSY-Chatbot"
+                                    github
+                                >
+                                    A simple AI chatbot that allows different queries given a specific family tree. This was created
+                                    in compliance with the course CSINTSY.
+                                </WorkElement>
+                            </motion.div>
+                            <motion.div
+                                initial={{ x: -100, opacity: 0 }}
+                                animate={{ x: 0, opacity: 1 }}
+                                transition={{ duration: 1, delay: '0.8' }}
+                            >
+                                <WorkElement
+                                    header="Markdown Blog"
+                                    techUsed="MongoDB, Mongoose, Express, Bootstrap, HTML"
+                                    link="https://github.com/HansSorongon/markdown-blog-1"
+                                    github
+                                >
+                                    A simple markdown blog utilizing CRUD
+                                    Operation fundamentals with MongoDB. I
+                                    plan to remake this in the future with
+                                    different frameworks/libraries.
+                                </WorkElement>
+                            </motion.div>
+                            <motion.div
+                                initial={{ x: -100, opacity: 0 }}
+                                animate={{ x: 0, opacity: 1 }}
+                                transition={{ duration: 1, delay: '0.9' }}
                             >
                                 <SectionHeader
                                     mt="5vh"

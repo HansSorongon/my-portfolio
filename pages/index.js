@@ -146,9 +146,7 @@ const Home = () => {
                                         'blue.900',
                                         'white'
                                     )}
-                                    onClick={() =>
-                                        alert('Currently working on it! Check again next time!')
-                                    }
+                                    onClick={() => {window.location.href="/Sorongon_Resume.pdf"}}
                                 >
                                     Download Resume&nbsp;
                                     <HiDocumentDownload />
@@ -195,7 +193,7 @@ const Home = () => {
                                   </ListItem>
                                   <ListItem display="flex" alignItems="center">
                                     <ListIcon as={FaTrophy} color='#cd7f32' mr={4}/>
-                                      <p>Impact Hackathon 2021 - Smart Cities | <b>Second Runner Up</b></p>
+                                      <p>Impact Hackathon 2021 - Agriculture | <b>Second Runner Up</b></p>
                                   </ListItem>
                                 </List>
                             </Container>
