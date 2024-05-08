@@ -89,7 +89,6 @@ const WorksPage = () => {
                                     header="Tekken Insider"
                                     techUsed="JavaScript,
                                 NextJS, Framer Motion, Express, MongoDB, MongoDB Atlas, Cloudinary"
-                                    link="https://github.com/HansSorongon/my-portfolio"
                                     link="/works/tekkinsider"
                                     read
                                 >
